@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gradlew.bat build:*)",
+      "Bash(cmd /c \"gradlew.bat build\")",
+      "Bash(cmd.exe /c \"cd /d \"\"D:\\\\BeforeBedtime\\\\bbtbar_cleanliness - Copy\"\" && gradlew.bat build\")",
+      "Bash(powershell.exe -Command \"Set-Location ''D:\\\\BeforeBedtime\\\\bbtbar_cleanliness - Copy''; .\\\\gradlew.bat build 2>&1\")"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="bbtbar"
+version="1.1.0"
+displayName="BBT Bar"
+authors="gon"
+description='''Health bar + Cleanliness bar HUD overlay.'''
+
+[[dependencies.bbtbar]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.bbtbar]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="CLIENT"
